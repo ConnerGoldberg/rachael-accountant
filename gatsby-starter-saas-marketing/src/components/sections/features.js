@@ -3,10 +3,10 @@ import styled from "styled-components"
 
 import { Section, Container } from "../global"
 
-const Features = () => (
-  <Section id="features">
+const AboutUs = () => (
+  <Section id="about">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
+      <Subtitle>About Us</Subtitle>
       <SectionTitle>Smart money management</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
@@ -49,7 +49,7 @@ const Features = () => (
   </Section>
 )
 
-export default Features
+export default AboutUs
 
 const StyledContainer = styled(Container)``
 

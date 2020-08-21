@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter SaaS Marketing`,
+    title: `RTG Tax Accountants`,
     description: `A simple one page marketing starter for saas companies.`,
     author: `Keegan Burkett`,
   },
