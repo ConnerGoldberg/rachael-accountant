@@ -34,15 +34,14 @@ const Header = () => {
               one account
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+            We're creating financial independence every day. Enquire Now.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
+              <HeaderButton>Enquire Now</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
+              Already a member?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
             </FormSubtitle>
           </HeaderTextGroup>
